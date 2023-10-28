@@ -70,11 +70,9 @@
                 <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Utilities:</h6>
-                        <a class="collapse-item" href="utilities-color.html">Colors</a>
-                        <a class="collapse-item" href="utilities-border.html">Borders</a>
-                        <a class="collapse-item" href="utilities-animation.html">Animations</a>
-                        <a class="collapse-item" href="utilities-other.html">Other</a>
+                        <h6 class="collapse-header">OPTION</h6>
+                        <a class="collapse-item" href="utilities-color.html">Tambah Guru</a>
+                        <a class="collapse-item" href="utilities-border.html">Data Guru</a>
                     </div>
                 </div>
             </li>
@@ -85,29 +83,46 @@
 
             <!-- Heading -->
             <div class="sidebar-heading">
-                Addons
+                CETAK
             </div>
 
             <!-- Nav Item - Pages Collapse Menu -->
 
             <!-- Nav Item - Charts -->
+
             <li class="nav-item">
-                <a class="nav-link" href="charts.html">
-                    <i class="fas fa-fw fa-chart-area"></i>
-                    <span>Charts</span></a>
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseCetak"
+                    aria-expanded="true" aria-controls="collapseUtilities">
+                    <i class="fas fa-fw fa-print"></i>
+                    <span>Cetak Data</span>
+                </a>
+                <div id="collapseCetak" class="collapse" aria-labelledby="headingUtilities"
+                    data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">OPTION</h6>
+                        <a class="collapse-item" href="utilities-color.html">SISWA</a>
+                        <a class="collapse-item" href="utilities-border.html">GURU</a>
+                    </div>
+                </div>
             </li>
 
-            <!-- Nav Item - Tables -->
+            <hr class="sidebar-divider">
+
+            <div class="sidebar-heading">
+                OPSI
+            </div>
+            
             <li class="nav-item">
-                <a class="nav-link" href="tables.html">
-                    <i class="fas fa-fw fa-table"></i>
-                    <span>Tables</span></a>
+                <a class="nav-link" href="<?php echo site_url('auth/login') ?>" data-toggle="modal" data-target="#logoutModal">
+                    <i class="fas fa-fw fa-sign-out-alt"></i>
+                    <span>LOG-OUT</span></a>
             </li>
+
 
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
 
-            <div class="text-center mt-5 d-none d-md-inline">
+            <div class="text-center mt-4 d-none d-md-inline">
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
             </div>
 

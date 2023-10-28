@@ -10,6 +10,7 @@
 
 <!--CONTENT -->
 <?php $this->load->view("admin/_partials/content.php") ?>
+
 </div>
 
 <!--FOOTER -->

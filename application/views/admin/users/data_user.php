@@ -59,7 +59,7 @@
                                                 <?php echo $product->last_login ?>
                                             </td>
                                             <td width="110">
-											    <a href="<?php echo site_url('admin/siswa/edit/'.$product->id_user) ?>"
+											    <a href="<?php echo site_url('admin/user/edit/'.$product->id_user) ?>"
 											 class="btn btn-small text-info"><i class="fas fa-edit"></i> Edit</a>
 											    <a onclick="deleteConfirm('<?php echo site_url('admin/siswa/delete/'.$product->id_user) ?>')"
 											 href="#!" class="btn btn-small text-danger text-center"><i class="fas fa-trash"></i> Hapus</a>
